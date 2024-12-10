@@ -40,23 +40,4 @@ public class HashFunctionsAndTables {
     public static void main(String[] args) {
 
                         Let's imagine that we have 40 phone numbers
-                        79101002030:900,
-                        79101234567: 100,
-                        79999999999:999,
-                        74952223344:1
-                        And we got 40 numbers in total
-
-        values[30] = 900;
-        values[7] = 100;
-        values[39] = 999;
-        values[24] = 1;
-    }
-    public int getIndexByKey(int key) {
-        return key % 40;
-    }
-    public int getValueByKey(int key) {
-        int index = getIndexByKey(key);
-        return values[index];
-    }
- */
-}
+ 
